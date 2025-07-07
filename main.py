@@ -3,6 +3,7 @@ from recommender.model import recommend_outfit
 
 import pandas as pd
 age=pd.array(1,2,3)
+NAME=pd.StringDtype
 
 if __name__ == "__main__":
     outfit_data = load_outfit_data("data/outfits.csv")
